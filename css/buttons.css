@@ -7,3 +7,14 @@
     outline:none;
     border-radius:.25rem;
 }
+.buttonTable{
+    padding:.5rem .75rem;
+    background:var(--cmf-color-7);
+    color:var(--cmf-color-8);
+    border:none;
+    outline:none;
+    border-radius:.375rem;
+    & p{
+        font-weight:700;
+    }
+}
