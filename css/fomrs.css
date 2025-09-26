@@ -1,0 +1,23 @@
+.form1{
+    margin-bottom:2rem;
+    &.cuatro{
+        display:grid;
+        grid-template-columns:repeat(auto-fit, minmax(100px, 270px));
+        gap:1rem;
+    }
+}
+select{
+    min-height:2.25rem;
+    padding-inline:.75rem;
+    border:1px solid var(--cmf-clr-neutro-4);
+    border-radius:.25rem;
+    &:focus, &:focus-visible{
+        border-color:var(--cmf-color-2);
+        box-shadow:0 0 3px 0 var(--cmf-color-2);
+        outline:none;
+    } 
+}
+option{
+    background:var(--cmf-clr-neutro-4);
+    color:inherit;
+}

@@ -53,7 +53,7 @@ main{
 .resultados{
     margin-bottom:2rem;
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 300px));
+    grid-template-columns:repeat(auto-fit, minmax(160px, 300px));
     gap:1rem;
 }
 .card_resultados{
@@ -107,6 +107,38 @@ main{
         align-items:center;
         & p{
             font-size:.875rem;
+        }
+    }
+}
+.card_sistema{
+    border:1px solid var(--cmf-clr-neutro-4);
+    border-radius:.75rem;
+    & .card__title{
+        padding:1rem 1.5rem;
+        background:var(--cmf-clr-neutro-7);
+        color:var(--cmf-clr-neutro-1);
+        border-bottom:1px solid var(--cmf-clr-neutro-4);
+        font-size:.875rem;
+        border-radius:.75rem .75rem 0 0;
+    }
+    & .card__value{
+        padding:1.5rem;
+        color:var(--cmf-clr-neutro-3);
+        text-align:center;
+        border-radius:0 0 .75rem .75rem;
+        & h3{
+            font-size:1.75rem;
+            color: var(--cmf-clr-neutro-1);
+        }
+    }
+    &.activ{
+        color:var(--cmf-clr-neutro-2);
+        & .card__value{
+            background:var(--bg-primary);
+            color:var(--cmf-clr-neutro-2);
+            & h3{
+                color:var(--cmf-clr-neutro-2);
+            }
         }
     }
 }
