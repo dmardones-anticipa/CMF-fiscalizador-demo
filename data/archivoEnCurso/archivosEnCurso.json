@@ -1,0 +1,69 @@
+[
+    {
+        "name":"Todos perops de 30 días",
+        "items":[
+            {
+                "name":"Entrega sin problemas",
+                "value":"999",
+                "color":"bgVerde"
+            },
+            {
+                "name":"Errores",
+                "value":"999",
+                "color":"bgRojo"
+            },
+            {
+                "name":"Alertas",
+                "value":"999",
+                "color":"bgAmarillo"
+            },
+            {
+                "name":"Rutificaciones",
+                "value":"999",
+                "color":"bgCalipso"
+            },
+            {
+                "name":"Por entregar",
+                "value":"999",
+                "color":"bgGris"
+            }
+        ]
+    },
+    {
+        "name":"Fecuencia",
+        "items":[
+            {
+                "name":"Frecuencia diaria",
+                "value":"999"
+            },
+            {
+                "name":"Frecuencia semanal",
+                "value":"999"
+            },
+            {
+                "name":"Frecuencia quincenal",
+                "value":"999"
+            },
+            {
+                "name":"Frecuencia mensual",
+                "value":"999"
+            },
+            {
+                "name":"Frecuencia bimestral",
+                "value":"999"
+            },
+            {
+                "name":"Frecuencia trimestral",
+                "value":"999"
+            },
+            {
+                "name":"Frecuencia semestral",
+                "value":"999"
+            },
+            {
+                "name":"Frecuencia a pedido",
+                "value":"999"
+            }
+        ]
+    }
+]
