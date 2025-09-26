@@ -68,6 +68,7 @@ main{
     cursor:pointer;
     overflow:hidden;
     & .card_resultados__res{
+        flex: 0 0 auto;
         padding:.625rem;
         border-right:1px solid var(--cmf-clr-neutro-4);
         & .card_resultados__number{
@@ -99,8 +100,17 @@ main{
                 color:var(--cmf-clr-neutro-1);
              }
         }
+        &.activ{
+            background:transparent;
+            & .card_resultados__title{
+                background:var(--bg-primary);
+                color:var(--cmf-clr-neutro-2);
+            }
+        }
     }
     & .card_resultados__title{
+        height:100%;
+        flex: 1 1 auto;
         padding:.625rem 1.25rem;
         display:flex;
         justify-content:flex-start;
