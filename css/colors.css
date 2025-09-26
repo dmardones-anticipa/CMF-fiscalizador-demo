@@ -47,6 +47,9 @@
 .bgGris{
     background:var(--cmf-clr-neutro-3);
 }
-:where(.bgVerde, .bgRojo, .bgAmarillo, .bgCalipso, .bgGris){
+.bgModaro{
+    background:var(--cmf-color-2);
+}
+:where(.bgVerde, .bgRojo, .bgAmarillo, .bgCalipso, .bgGris, .bgModaro){
     color:var(--cmf-clr-neutro-2);
 }
