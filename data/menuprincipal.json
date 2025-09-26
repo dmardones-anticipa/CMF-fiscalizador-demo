@@ -11,7 +11,7 @@
     },
     {
         "name":"Informe histórico",
-        "link":"",
+        "link":"informe-historico.html",
         "icon":"<svg class='iconaction__icon' width='16' height='17' viewBox='0 0 16 17' xmlns='http://www.w3.org/2000/svg'><path fill='currentColor' d='M11.9212 14.5922H1.5V0.5H11.9212V14.5922ZM2.18628 13.9203H11.2349V1.17256H2.18628V13.9203Z'/><path fill='currentColor' d='M13.8679 16.5H3.44678V14.2561H4.13306V15.8274H13.1816V3.11219H11.5776V2.43964H13.8679V16.5Z'/><path fill='currentColor' d='M6.70979 3.39423H3.78955V4.06678H6.70979V3.39423Z'/><path fill='currentColor' d='M9.63011 5.30206H3.78955V5.97462H9.63011V5.30206Z'/><path fill='currentColor' d='M9.63011 7.20941H3.78955V7.88197H9.63011V7.20941Z'/><path fill='currentColor' d='M9.63011 9.1178H3.78955V9.79042H9.63011V9.1178Z'/><path fill='currentColor' d='M9.63091 11.0259H7.68408V11.6985H9.63091V11.0259Z'/></svg>"
     },
     {

@@ -1,5 +1,10 @@
 .form1{
     margin-bottom:2rem;
+     &.tres{
+        display:grid;
+        grid-template-columns:repeat(auto-fit, minmax(100px, 365px));
+        gap:1rem;
+    }
     &.cuatro{
         display:grid;
         grid-template-columns:repeat(auto-fit, minmax(100px, 270px));

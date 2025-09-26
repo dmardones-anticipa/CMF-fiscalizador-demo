@@ -24,10 +24,10 @@ async function cargarMenu() {
     // Recorrer el array de menu y crear el HTML
     arrayMenu.forEach((menu) => {
       const menuHTML = `
-                        <div class="nav__button">
+                        <a class="nav__button" href="${menu.link}">
                             ${ menu.icon }
                             <p>${ menu.name }</p>
-                        </div>
+                        </a>
                     `;
       // Insertar el nuevo elemento HTML en el contenedor
       containerMenu.insertAdjacentHTML("beforeend", menuHTML);
