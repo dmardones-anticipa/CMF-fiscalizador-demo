@@ -1,0 +1,112 @@
+main{
+    width:100%;
+    max-height:calc(100svh - var(--height-header));
+    display:grid;
+    grid-template-columns:var(--width-nav) 1fr;
+    border:none;
+    & .content{
+        max-height:100%;
+        padding-inline:1rem;
+        overflow-y:auto;
+    }
+}
+
+.breadcrumbs{
+    margin-bottom:2rem;
+    padding:.75rem 0;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    gap:.5rem;
+    font-weight:400;
+    & .breadcrumbs__button{
+        margin-right:.5rem;
+        display:block;
+        position:relative;
+        color:var(--cmf-color-1);
+        font-weight:500;
+        cursor:pointer;
+        &::before{
+            content:'/';
+            width:auto;
+            height:100%;
+            position:absolute;
+            left:calc(100% + .4rem);
+            color:#CED4DA;
+        }
+    }
+    & .breadcrumbs__item{
+        color:var(--cmf-clr-neutro-3);
+    }
+}
+.title{
+    padding-bottom:1rem;
+    color:var(--cmf-clr-neutro-1);
+    font-weight:600;
+    & h1{
+        font-size:2rem;
+    }
+    & h2{
+        font-size:1.74rem;
+    }
+}
+.resultados{
+    margin-bottom:2rem;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 300px));
+    gap:1rem;
+}
+.card_resultados{
+    width:100%;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    background:var(--cmf-clr-neutro-2);
+    color:var(--cmf-clr-neutro-1);
+    border:1px solid var(--cmf-clr-neutro-4);
+    border-radius:.75rem;
+    cursor:pointer;
+    overflow:hidden;
+    & .card_resultados__res{
+        padding:.625rem;
+        border-right:1px solid var(--cmf-clr-neutro-4);
+        & .card_resultados__number{
+            width:4.375rem;
+            aspect-ratio:1/1;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            border-radius:.75rem;
+            & p{
+                font-size:1.74rem;
+                font-weight:600;
+            }
+        }
+    }
+    &.activ{
+        background:var(--bg-primary);
+        color:var(--cmf-clr-neutro-2);
+        border-color:transparent;
+        & .card_resultados__res{
+            border-color:transparent;
+        }
+    }
+    &.frecuencia{
+        & .card_resultados__res{
+            background:var(--cmf-color-4);
+             & .card_resultados__number{
+                background:inherit;
+                color:var(--cmf-clr-neutro-1);
+             }
+        }
+    }
+    & .card_resultados__title{
+        padding:.625rem 1.25rem;
+        display:flex;
+        justify-content:flex-start;
+        align-items:center;
+        & p{
+            font-size:.875rem;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+:root{
+    --heightHeadbar:1.875rem;
+    --heightHeaderCont:5rem;
+    --height-header:calc(var(--heightHeadbar) + var(--heightHeaderCont));
+    --width-nav:15.875rem;
+}
+:root:has(#collapsed:checked){
+    --width-nav:4.9375rem;
+}
+html{
+    font-size:var(--fontSize);
+}
+body{
+    min-height:100dvh;
+    display:grid;
+    grid-template-rows:var(--height-header) 1fr;
+    font-family:var(--fontFamily);
+}
+p{
+    margin-bottom:0;
+}

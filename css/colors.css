@@ -1,0 +1,47 @@
+:root{
+    /* Colores principales */
+    --cmf-color-1:#434D9B;
+    --cmf-color-2:#5959DC;
+    --cmf-color-3:#203766;
+    --cmf-color-4:#D5DBF7;
+    --cmf-color-5:#879CD8;
+    --cmf-color-6:#E2EAF8;
+    /* Colores neutros */
+    --cmf-clr-neutro-1:#151819;
+    --cmf-clr-neutro-2:#FFFFFF;
+    --cmf-clr-neutro-3:#6C757D;
+    --cmf-clr-neutro-4:#DEE2E6;
+    --cmf-clr-neutro-5:#F1F1F1;
+    /* Colores alertas */
+    --cmf-clr-alerta-1:#4CA730;
+    --cmf-clr-alerta-1:#F9D949;
+    --cmf-clr-alerta-1:#E05B56;
+    /* Colores solidos */
+    --bg-primary:#433D9B;
+    --bg-secondary:#525453;
+    --bg-success:#4CA730;
+    --bg-info:#0097ED;
+    --bg-warning:#E5780B;
+    --bg-danger:#E05B56;
+    --bg-alert:#FFC107;
+    --bg-activ:#17A2B8;
+}
+
+.bgVerde{
+    background:var(--bg-success);
+}
+.bgRojo{
+    background:var(--bg-danger);
+}
+.bgAmarillo{
+    background:var(--bg-alert);
+}
+.bgCalipso{
+    background:var(--bg-activ);
+}
+.bgGris{
+    background:var(--cmf-clr-neutro-3);
+}
+:where(.bgVerde, .bgRojo, .bgAmarillo, .bgCalipso, .bgGris){
+    color:var(--cmf-clr-neutro-2);
+}
