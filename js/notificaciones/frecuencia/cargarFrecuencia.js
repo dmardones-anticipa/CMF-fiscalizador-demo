@@ -38,7 +38,7 @@ async function cargarFrecuencias() {
     // Recorrer el array de menu y crear el HTML
     agrupado.forEach((frecuencia) => {
       const frecuenciasHTML = `
-                        <div class="card_resultados frecuencia ${ frecuencia.tipoFrecuencia == "Diaria" && "activ" }" data-frecuencia="${ frecuencia.tipoFrecuencia }">
+                        <div class="card_resultados frecuencia" data-frecuencia="${ frecuencia.tipoFrecuencia }">
                             <div class="card_resultados__res">
                                 <div class="card_resultados__number">
                                     <p>${ frecuencia.count }</p>
