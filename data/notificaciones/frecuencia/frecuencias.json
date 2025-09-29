@@ -1,0 +1,386 @@
+[
+    {
+        "id": 1,
+        "tipoFrecuencia":"Diaria",
+        "tipoSistema":"Contable",
+        "valor": 15
+    },
+    {
+        "id": 2,
+        "tipoFrecuencia":"Diaria",
+        "tipoSistema":"Productos",
+        "valor": 15
+    },
+    {
+        "id": 3,
+        "tipoFrecuencia":"Diaria",
+        "tipoSistema":"Deudores",
+        "valor": 15
+    },
+    {
+        "id": 4,
+        "tipoFrecuencia":"Diaria",
+        "tipoSistema":"Instituciones",
+        "valor": 15
+    },
+    {
+        "id": 5,
+        "tipoFrecuencia":"Diaria",
+        "tipoSistema":"Estadísticas",
+        "valor": 15
+    },
+    {
+        "id": 6,
+        "tipoFrecuencia":"Diaria",
+        "tipoSistema":"Leasing",
+        "valor": 15
+    },
+    {
+        "id": 7,
+        "tipoFrecuencia":"Diaria",
+        "tipoSistema":"FECU",
+        "valor": 15
+    },
+    {
+        "id": 8,
+        "tipoFrecuencia":"Diaria",
+        "tipoSistema":"Otros",
+        "valor": 15
+    },
+    {
+        "id": 1,
+        "tipoFrecuencia":"Semanal",
+        "tipoSistema":"Contable",
+        "valor": 15
+    },
+    {
+        "id": 2,
+        "tipoFrecuencia":"Semanal",
+        "tipoSistema":"Productos",
+        "valor": 15
+    },
+    {
+        "id": 3,
+        "tipoFrecuencia":"Semanal",
+        "tipoSistema":"Deudores",
+        "valor": 15
+    },
+    {
+        "id": 4,
+        "tipoFrecuencia":"Semanal",
+        "tipoSistema":"Instituciones",
+        "valor": 15
+    },
+    {
+        "id": 5,
+        "tipoFrecuencia":"Semanal",
+        "tipoSistema":"Estadísticas",
+        "valor": 15
+    },
+    {
+        "id": 6,
+        "tipoFrecuencia":"Semanal",
+        "tipoSistema":"Leasing",
+        "valor": 15
+    },
+    {
+        "id": 7,
+        "tipoFrecuencia":"Semanal",
+        "tipoSistema":"FECU",
+        "valor": 15
+    },
+    {
+        "id": 8,
+        "tipoFrecuencia":"Semanal",
+        "tipoSistema":"Otros",
+        "valor": 15
+    },
+    {
+        "id": 1,
+        "tipoFrecuencia":"Quincenal",
+        "tipoSistema":"Contable",
+        "valor": 15
+    },
+    {
+        "id": 2,
+        "tipoFrecuencia":"Quincenal",
+        "tipoSistema":"Productos",
+        "valor": 15
+    },
+    {
+        "id": 3,
+        "tipoFrecuencia":"Quincenal",
+        "tipoSistema":"Deudores",
+        "valor": 15
+    },
+    {
+        "id": 4,
+        "tipoFrecuencia":"Quincenal",
+        "tipoSistema":"Instituciones",
+        "valor": 15
+    },
+    {
+        "id": 5,
+        "tipoFrecuencia":"Quincenal",
+        "tipoSistema":"Estadísticas",
+        "valor": 15
+    },
+    {
+        "id": 6,
+        "tipoFrecuencia":"Quincenal",
+        "tipoSistema":"Leasing",
+        "valor": 15
+    },
+    {
+        "id": 7,
+        "tipoFrecuencia":"Quincenal",
+        "tipoSistema":"FECU",
+        "valor": 15
+    },
+    {
+        "id": 8,
+        "tipoFrecuencia":"Quincenal",
+        "tipoSistema":"Otros",
+        "valor": 15
+    },
+    {
+        "id": 1,
+        "tipoFrecuencia":"Mensual",
+        "tipoSistema":"Contable",
+        "valor": 15
+    },
+    {
+        "id": 2,
+        "tipoFrecuencia":"Mensual",
+        "tipoSistema":"Productos",
+        "valor": 15
+    },
+    {
+        "id": 3,
+        "tipoFrecuencia":"Mensual",
+        "tipoSistema":"Deudores",
+        "valor": 15
+    },
+    {
+        "id": 4,
+        "tipoFrecuencia":"Mensual",
+        "tipoSistema":"Instituciones",
+        "valor": 15
+    },
+    {
+        "id": 5,
+        "tipoFrecuencia":"Mensual",
+        "tipoSistema":"Estadísticas",
+        "valor": 15
+    },
+    {
+        "id": 6,
+        "tipoFrecuencia":"Mensual",
+        "tipoSistema":"Leasing",
+        "valor": 15
+    },
+    {
+        "id": 7,
+        "tipoFrecuencia":"Mensual",
+        "tipoSistema":"FECU",
+        "valor": 15
+    },
+    {
+        "id": 8,
+        "tipoFrecuencia":"Mensual",
+        "tipoSistema":"Otros",
+        "valor": 15
+    },
+    {
+        "id": 1,
+        "tipoFrecuencia":"Bimestral",
+        "tipoSistema":"Contable",
+        "valor": 15
+    },
+    {
+        "id": 2,
+        "tipoFrecuencia":"Bimestral",
+        "tipoSistema":"Productos",
+        "valor": 15
+    },
+    {
+        "id": 3,
+        "tipoFrecuencia":"Bimestral",
+        "tipoSistema":"Deudores",
+        "valor": 15
+    },
+    {
+        "id": 4,
+        "tipoFrecuencia":"Bimestral",
+        "tipoSistema":"Instituciones",
+        "valor": 15
+    },
+    {
+        "id": 5,
+        "tipoFrecuencia":"Bimestral",
+        "tipoSistema":"Estadísticas",
+        "valor": 15
+    },
+    {
+        "id": 6,
+        "tipoFrecuencia":"Bimestral",
+        "tipoSistema":"Leasing",
+        "valor": 15
+    },
+    {
+        "id": 7,
+        "tipoFrecuencia":"Bimestral",
+        "tipoSistema":"FECU",
+        "valor": 15
+    },
+    {
+        "id": 8,
+        "tipoFrecuencia":"Bimestral",
+        "tipoSistema":"Otros",
+        "valor": 15
+    },
+    {
+        "id": 1,
+        "tipoFrecuencia":"Trimestral",
+        "tipoSistema":"Contable",
+        "valor": 15
+    },
+    {
+        "id": 2,
+        "tipoFrecuencia":"Trimestral",
+        "tipoSistema":"Productos",
+        "valor": 15
+    },
+    {
+        "id": 3,
+        "tipoFrecuencia":"Trimestral",
+        "tipoSistema":"Deudores",
+        "valor": 15
+    },
+    {
+        "id": 4,
+        "tipoFrecuencia":"Trimestral",
+        "tipoSistema":"Instituciones",
+        "valor": 15
+    },
+    {
+        "id": 5,
+        "tipoFrecuencia":"Trimestral",
+        "tipoSistema":"Estadísticas",
+        "valor": 15
+    },
+    {
+        "id": 6,
+        "tipoFrecuencia":"Trimestral",
+        "tipoSistema":"Leasing",
+        "valor": 15
+    },
+    {
+        "id": 7,
+        "tipoFrecuencia":"Trimestral",
+        "tipoSistema":"FECU",
+        "valor": 15
+    },
+    {
+        "id": 8,
+        "tipoFrecuencia":"Trimestral",
+        "tipoSistema":"Otros",
+        "valor": 15
+    },
+    {
+        "id": 1,
+        "tipoFrecuencia":"Semestral",
+        "tipoSistema":"Contable",
+        "valor": 15
+    },
+    {
+        "id": 2,
+        "tipoFrecuencia":"Semestral",
+        "tipoSistema":"Productos",
+        "valor": 15
+    },
+    {
+        "id": 3,
+        "tipoFrecuencia":"Semestral",
+        "tipoSistema":"Deudores",
+        "valor": 15
+    },
+    {
+        "id": 4,
+        "tipoFrecuencia":"Semestral",
+        "tipoSistema":"Instituciones",
+        "valor": 15
+    },
+    {
+        "id": 5,
+        "tipoFrecuencia":"Semestral",
+        "tipoSistema":"Estadísticas",
+        "valor": 15
+    },
+    {
+        "id": 6,
+        "tipoFrecuencia":"Semestral",
+        "tipoSistema":"Leasing",
+        "valor": 15
+    },
+    {
+        "id": 7,
+        "tipoFrecuencia":"Semestral",
+        "tipoSistema":"FECU",
+        "valor": 15
+    },
+    {
+        "id": 8,
+        "tipoFrecuencia":"Semestral",
+        "tipoSistema":"Otros",
+        "valor": 15
+    },
+    {
+        "id": 1,
+        "tipoFrecuencia":"Pedido",
+        "tipoSistema":"Contable",
+        "valor": 15
+    },
+    {
+        "id": 2,
+        "tipoFrecuencia":"Pedido",
+        "tipoSistema":"Productos",
+        "valor": 15
+    },
+    {
+        "id": 3,
+        "tipoFrecuencia":"Pedido",
+        "tipoSistema":"Deudores",
+        "valor": 15
+    },
+    {
+        "id": 4,
+        "tipoFrecuencia":"Pedido",
+        "tipoSistema":"Instituciones",
+        "valor": 15
+    },
+    {
+        "id": 5,
+        "tipoFrecuencia":"Pedido",
+        "tipoSistema":"Estadísticas",
+        "valor": 15
+    },
+    {
+        "id": 6,
+        "tipoFrecuencia":"Pedido",
+        "tipoSistema":"Leasing",
+        "valor": 15
+    },
+    {
+        "id": 7,
+        "tipoFrecuencia":"Pedido",
+        "tipoSistema":"FECU",
+        "valor": 15
+    },
+    {
+        "id": 8,
+        "tipoFrecuencia":"Pedido",
+        "tipoSistema":"Otros",
+        "valor": 15
+    }
+]

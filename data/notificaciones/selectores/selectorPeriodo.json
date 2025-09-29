@@ -1,0 +1,26 @@
+[
+    {
+        "id":"-1",
+        "label":"Periodo de tiempo",
+        "disabled": true,
+        "selected": true
+    },
+    {
+        "id":"1",
+        "label":"Periodo de 30 días",
+        "disabled": false,
+        "selected": false
+    },
+    {
+        "id":"2",
+        "label":"Periodo de 60 días",
+        "disabled": false,
+        "selected": false
+    },
+    {
+        "id":"3",
+        "label":"Periodo de 90 días",
+        "disabled": false,
+        "selected": false
+    }
+]
