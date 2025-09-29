@@ -1,0 +1,95 @@
+[
+    {
+        "name":"Informe histórico",
+        "select":[
+            {
+                "label":"Tipo de institución",
+                "options":[
+                    "Opción uno",
+                    "Optción dos"
+                ]
+            },
+            {
+                "label":"Tistitución",
+                "options":[
+                    "Cooperativa de ahorro, crédito y servicios financieros Ahorrocoop Diego Portales Ltda.",
+                    "Institución Dos",
+                    "Institución Tres"
+                ]
+                
+            },
+            {
+                "label":"Archivo",
+                "options":[
+                    "Diario",
+                    "Semanal",
+                    "Mensual",
+                    "Semestralz"
+                ]
+            },
+            {
+                "label":"Fecha desde",
+                "options":[
+                    "Diario",
+                    "Semanal",
+                    "Mensual",
+                    "Semestralz"
+                ]
+            },
+            {
+                "label":"Fecha hasta",
+                "options":[
+                    "Diario",
+                    "Semanal",
+                    "Mensual",
+                    "Semestralz"
+                ]
+            }
+        ]
+    },
+    {
+        "name":"Resultados",
+        "items":[
+            {
+                "name":"Totales de archivos",
+                "color":"bgMorado",
+                "value":"432"
+            },
+            {
+                "name":"Recibidos correctamente",
+                "color":"bgVerde",
+                "value":"432"
+            },
+            {
+                "name":"Con observaciones",
+                "color":"bgAmarillo",
+                "value":"432"
+            },
+            {
+                "name":"Errores y/o atrasos",
+                "color":"bgRojo",
+                "value":"432"
+            }
+        ]
+    },
+    {
+        "name":"Tabla",
+        "table":[
+            {
+                "thead":[
+                    "Tipo de institución",
+                    "Institución",
+                    "Archivo",
+                    "Fecha referencia",
+                    "Plazo máximo",
+                    "Fecha recepción",
+                    "Días de atraso",
+                    "N° de Procesos",
+                    "N° de Errores",
+                    "N° de Alertas",
+                    "Historial"
+                ]
+            }
+        ]
+    }
+]
