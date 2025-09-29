@@ -1,6 +1,6 @@
 [
     {
-        "name":"Todos perops de 30 días",
+        "name":"Todos periodos de 30 días",
         "items":[
             {
                 "name":"Entrega sin problemas",
@@ -63,6 +63,82 @@
             {
                 "name":"Frecuencia a pedido",
                 "value":"999"
+            }
+        ]
+    },
+    {
+        "name":"Sistema",
+        "items":[
+            {
+                "name":"Frecuencia",
+                "type":"Diaria",
+                "value":"15",
+                "sistem":"Sistema",
+                "typesistem":"Contable"
+            },
+            {
+                "name":"Frecuencia",
+                "type":"Diaria",
+                "value":"15",
+                "sistem":"Sistema",
+                "typesistem":"Contable"
+            },
+            {
+                "name":"Frecuencia",
+                "type":"Diaria",
+                "value":"15",
+                "sistem":"Sistema",
+                "typesistem":"Contable"
+            },
+            {
+                "name":"Frecuencia",
+                "type":"Diaria",
+                "value":"15",
+                "sistem":"Sistema",
+                "typesistem":"Contable"
+            },
+            {
+                "name":"Frecuencia",
+                "type":"Diaria",
+                "value":"15",
+                "sistem":"Sistema",
+                "typesistem":"Contable"
+            },
+            {
+                "name":"Frecuencia",
+                "type":"Diaria",
+                "value":"15",
+                "sistem":"Sistema",
+                "typesistem":"Contable"
+            },
+            {
+                "name":"Frecuencia",
+                "type":"Diaria",
+                "value":"15",
+                "sistem":"Sistema",
+                "typesistem":"Contable"
+            },
+            {
+                "name":"Frecuencia",
+                "type":"Diaria",
+                "value":"15",
+                "sistem":"Sistema",
+                "typesistem":"Contable"
+            }
+        ]
+    },
+    {
+        "name":"Entregados sin problemas Diaria Contable",
+        "table":[
+            {
+                "thead":[
+                            "Tipo de institución",
+                            "Instituciones",
+                            "Archivos",
+                            "Plazo mínimo",
+                            "Plazo máximo",
+                            "Fecha"
+                        ]
             }
         ]
     }
