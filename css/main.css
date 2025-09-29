@@ -129,6 +129,7 @@ main{
 .card_sistema{
     border:1px solid var(--cmf-clr-neutro-4);
     border-radius:.75rem;
+    cursor:pointer;
     & .card__title{
         padding:1rem 1.5rem;
         background:var(--cmf-clr-neutro-7);

@@ -73,6 +73,12 @@ function renderCards(block, data){
             const allCards=document.querySelectorAll('.card_resultados');
             allCards.forEach(c=>c.classList.remove('activ'));
             cardDiv.classList.add('activ');
+
+            const allCardsFrec=document.querySelectorAll('.frecuencia');
+            allCardsFrec.forEach(c=>c.classList.remove('activ'));
+
+            const prevSection=document.getElementById('Sistemas-section');
+            if(prevSection) prevSection.remove();
             renderFrecuencia(data[2], data);
         });
         cardsContainer.appendChild(cardDiv);
@@ -142,7 +148,31 @@ function renderSistema(block, data){
     titulo.appendChild(h2);
     section.appendChild(titulo);
 
-    //section.appendChild(cardsContainer);
+    const cardsContainer=document.createElement('div');
+    cardsContainer.classList.add('resultados');
+    block.items.forEach(card=>{
+        const cardDiv=document.createElement('div');
+        cardDiv.classList.add('card_sistema');
+        cardDiv.innerHTML=`
+                <div class="card__title">
+                    <p>${card.name}</p>
+                    <b>${card.type}</b>
+                </div>
+                <div class="card__value">
+                    <h3>${card.value}</h3>
+                    <p>${card.sistem}</p>
+                    <b>${card.typesistem}</b>
+                </div>
+        `;
+        cardDiv.addEventListener('click', ()=>{
+            const allCards=document.querySelectorAll('.card_sistema');
+            allCards.forEach(c=>c.classList.remove('activ'));
+            cardDiv.classList.add('activ');
+            //renderTabla(data[4]);
+        });
+        cardsContainer.appendChild(cardDiv);
+    });
+    section.appendChild(cardsContainer);
 
     cont.appendChild(section);
 }
