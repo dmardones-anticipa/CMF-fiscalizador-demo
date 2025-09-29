@@ -1,5 +1,34 @@
 [
     {
+        "name":"Archivos en curso",
+        "select":[
+            {
+                "label":"Tipo de institución",
+                "options":[
+                    "Opción uno",
+                    "Optción dos"
+                ]
+            },
+            {
+                "label":"Tistitución",
+                "options":[
+                    "Cooperativa de ahorro, crédito y servicios financieros Ahorrocoop Diego Portales Ltda.",
+                    "Institución Dos",
+                    "Institución Tres"
+                ]
+            },
+            {
+                "label":"Periodo de tiempo",
+                "options":[
+                    "Diario",
+                    "Semanal",
+                    "Mensual",
+                    "Semestralz"
+                ]
+            }
+        ]
+    },
+    {
         "name":"Todos periodos de 30 días",
         "items":[
             {

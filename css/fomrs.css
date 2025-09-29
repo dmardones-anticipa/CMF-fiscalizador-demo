@@ -1,14 +1,25 @@
 .form1{
     margin-bottom:2rem;
-     &.tres{
-        display:grid;
-        grid-template-columns:repeat(auto-fit, minmax(100px, 365px));
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    flex-flow:row wrap;
+    gap:1rem;
+    & div{
+        width:calc(100% - 7.5rem - 1rem);
+        flex-flow:row wrap;
+        display:flex;
+        justify-content:flex-start;
+        align-items:flex-start;
         gap:1rem;
+        &.tres{
+            & select{
+                width:calc(33.3333% - 1rem);
+            }
+        }
     }
-    &.cuatro{
-        display:grid;
-        grid-template-columns:repeat(auto-fit, minmax(100px, 270px));
-        gap:1rem;
+    & button{
+        min-width:7.5rem;
     }
 }
 select{
