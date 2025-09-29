@@ -1,14 +1,10 @@
+var titulotablaPartes = ["", "", ""];
+var titulotabla='';
 async function loadArchivos(){
     try{
         const res=await fetch("./data/archivoEnCurso/archivosEnCurso.json");
         const data=await res.json();
-
-        renderSelects(data[0], data); // Pasamos también todo el data
-        // Puedes activar las demás funciones según sea necesario
-        // renderCards(data[1]);
-        // renderFrecuencia(data[2]);
-        // renderSistema(data[3]);
-        // renderTabla(data[4]);
+        renderSelects(data[0], data);
     }catch(error){
         console.error("Error cargando archivos:", error);
     }
@@ -79,6 +75,11 @@ function renderCards(block, data){
 
             const prevSection=document.getElementById('Sistemas-section');
             if(prevSection) prevSection.remove();
+
+            titulotablaPartes[0]=card.name;
+            titulotablaPartes[1]=""; // limpiar frecuencia
+            titulotablaPartes[2]=""; // limpiar tipoSistema
+            titulotabla=titulotablaPartes.filter(Boolean).join(" | ");
             renderFrecuencia(data[2], data);
         });
         cardsContainer.appendChild(cardDiv);
@@ -122,7 +123,14 @@ function renderFrecuencia(block, data){
             const allCards=document.querySelectorAll('.frecuencia');
             allCards.forEach(c=>c.classList.remove('activ'));
             cardDiv.classList.add('activ');
-            renderSistema(data[3]);
+            const prevSection=document.getElementById('tabla-section');
+            if(prevSection) prevSection.remove();   
+
+            const frase=card.name.trim().split(/\s+/);
+            titulotablaPartes[1]=frase[frase.length - 1]; // solo última palabra
+            titulotablaPartes[2]=""; // limpiar tipoSistema
+            titulotabla=titulotablaPartes.filter(Boolean).join(" | ");
+            renderSistema(data[3], data, card.name);
         });
         cardsContainer.appendChild(cardDiv);
     });
@@ -131,7 +139,7 @@ function renderFrecuencia(block, data){
     cont.appendChild(section);
 }
 
-function renderSistema(block, data){
+function renderSistema(block, data, frecuencia){
     const cont=document.querySelector('.content');
     if(!cont) return;
 
@@ -150,13 +158,15 @@ function renderSistema(block, data){
 
     const cardsContainer=document.createElement('div');
     cardsContainer.classList.add('resultados');
+    const frase=frecuencia.trim().split(/\s+/);
+    const tipofrecuencia=frase[frase.length-1];
     block.items.forEach(card=>{
         const cardDiv=document.createElement('div');
         cardDiv.classList.add('card_sistema');
         cardDiv.innerHTML=`
                 <div class="card__title">
                     <p>${card.name}</p>
-                    <b>${card.type}</b>
+                    <b>${tipofrecuencia}</b>
                 </div>
                 <div class="card__value">
                     <h3>${card.value}</h3>
@@ -168,11 +178,53 @@ function renderSistema(block, data){
             const allCards=document.querySelectorAll('.card_sistema');
             allCards.forEach(c=>c.classList.remove('activ'));
             cardDiv.classList.add('activ');
-            //renderTabla(data[4]);
+            titulotablaPartes[2]=card.typesistem;
+            titulotabla=titulotablaPartes.filter(Boolean).join(" | ");
+            renderTabla(data[4], data);
         });
         cardsContainer.appendChild(cardDiv);
     });
     section.appendChild(cardsContainer);
+
+    cont.appendChild(section);
+}
+
+function renderTabla(block, data){
+    const cont=document.querySelector('.content');
+    if(!cont) return;
+    const prevSection=document.getElementById('tabla-section');
+    if(prevSection) prevSection.remove();
+
+    const section=document.createElement('section');
+    section.id='tabla-section';
+    const titulo=document.createElement('div');
+    titulo.classList.add('title');
+    const h2=document.createElement('h3');
+    h2.innerText=`${titulotabla}`;
+    titulo.appendChild(h2);
+    section.appendChild(titulo);
+
+   /*  const cardTable=document.createElement('div');
+    cardTable.classList.add('tabla1');
+    cardTable.innerHTML=`
+        <table>
+            <thead>
+                <tr>
+                    ${block.headers.map(header=>`<th>${header}</th>`).join('')}
+                </tr>
+            </thead>
+            <tbody>
+            ${block.items.map(item=>`
+                <tr>
+                    <td>${item.name}</td>
+                    <td>${item.value}</td>
+                    <td>${item.sistem}</td>
+                    <td>${item.typesistem}</td>
+                </tr>
+            `).join('')}
+            </tbody>
+        </table>
+        `; */
 
     cont.appendChild(section);
 }

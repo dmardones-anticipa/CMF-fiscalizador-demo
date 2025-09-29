@@ -8,6 +8,7 @@ main{
         max-height:100%;
         padding-inline:1rem;
         overflow-y:auto;
+        transition:width .3s;
         & section{
             width:100%;
         }
@@ -116,7 +117,7 @@ main{
     }
     & .card_resultados__title{
         height:100%;
-        flex: 1 1 auto;
+        flex:1 1 auto;
         padding:.625rem 1.25rem;
         display:flex;
         justify-content:flex-start;
@@ -137,6 +138,9 @@ main{
         border-bottom:1px solid var(--cmf-clr-neutro-4);
         font-size:.875rem;
         border-radius:.75rem .75rem 0 0;
+        & b{
+            text-transform:capitalize;
+        }
     }
     & .card__value{
         padding:1.5rem;

@@ -110,49 +110,49 @@
                 "type":"Diaria",
                 "value":"12",
                 "sistem":"Sistema",
-                "typesistem":"Contable"
+                "typesistem":"Productos"
             },
             {
                 "name":"Frecuencia",
                 "type":"Diaria",
                 "value":"11",
                 "sistem":"Sistema",
-                "typesistem":"Contable"
+                "typesistem":"Deudores"
             },
             {
                 "name":"Frecuencia",
                 "type":"Diaria",
                 "value":"19",
                 "sistem":"Sistema",
-                "typesistem":"Contable"
+                "typesistem":"Instituciones"
             },
             {
                 "name":"Frecuencia",
                 "type":"Diaria",
                 "value":"9",
                 "sistem":"Sistema",
-                "typesistem":"Contable"
+                "typesistem":"Estadísticas"
             },
             {
                 "name":"Frecuencia",
                 "type":"Diaria",
                 "value":"5",
                 "sistem":"Sistema",
-                "typesistem":"Contable"
+                "typesistem":"Leasing"
             },
             {
                 "name":"Frecuencia",
                 "type":"Diaria",
                 "value":"6",
                 "sistem":"Sistema",
-                "typesistem":"Contable"
+                "typesistem":"FECU"
             },
             {
                 "name":"Frecuencia",
                 "type":"Diaria",
                 "value":"7",
                 "sistem":"Sistema",
-                "typesistem":"Contable"
+                "typesistem":"Otros"
             }
         ]
     },
@@ -166,7 +166,11 @@
                             "Archivos",
                             "Plazo mínimo",
                             "Plazo máximo",
-                            "Fecha"
+                            "Fecha recepción",
+                            "Días de atraso",
+                            "N° de procesos",
+                            "N° de errores",
+                            "N° de alertas"
                         ]
             }
         ]
