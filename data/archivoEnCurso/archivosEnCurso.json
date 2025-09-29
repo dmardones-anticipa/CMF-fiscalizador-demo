@@ -33,27 +33,27 @@
         "items":[
             {
                 "name":"Entrega sin problemas",
-                "value":"999",
+                "value":"540",
                 "color":"bgVerde"
             },
             {
                 "name":"Errores",
-                "value":"999",
+                "value":"325",
                 "color":"bgRojo"
             },
             {
                 "name":"Alertas",
-                "value":"999",
+                "value":"283",
                 "color":"bgAmarillo"
             },
             {
                 "name":"Rutificaciones",
-                "value":"999",
+                "value":"54",
                 "color":"bgCalipso"
             },
             {
                 "name":"Por entregar",
-                "value":"999",
+                "value":"103",
                 "color":"bgGris"
             }
         ]
@@ -63,35 +63,35 @@
         "items":[
             {
                 "name":"Frecuencia diaria",
-                "value":"999"
+                "value":"84"
             },
             {
                 "name":"Frecuencia semanal",
-                "value":"999"
+                "value":"75"
             },
             {
                 "name":"Frecuencia quincenal",
-                "value":"999"
+                "value":"69"
             },
             {
                 "name":"Frecuencia mensual",
-                "value":"999"
+                "value":"76"
             },
             {
                 "name":"Frecuencia bimestral",
-                "value":"999"
+                "value":"68"
             },
             {
                 "name":"Frecuencia trimestral",
-                "value":"999"
+                "value":"49"
             },
             {
                 "name":"Frecuencia semestral",
-                "value":"999"
+                "value":"46"
             },
             {
                 "name":"Frecuencia a pedido",
-                "value":"999"
+                "value":"73"
             }
         ]
     },
@@ -108,49 +108,49 @@
             {
                 "name":"Frecuencia",
                 "type":"Diaria",
-                "value":"15",
+                "value":"12",
                 "sistem":"Sistema",
                 "typesistem":"Contable"
             },
             {
                 "name":"Frecuencia",
                 "type":"Diaria",
-                "value":"15",
+                "value":"11",
                 "sistem":"Sistema",
                 "typesistem":"Contable"
             },
             {
                 "name":"Frecuencia",
                 "type":"Diaria",
-                "value":"15",
+                "value":"19",
                 "sistem":"Sistema",
                 "typesistem":"Contable"
             },
             {
                 "name":"Frecuencia",
                 "type":"Diaria",
-                "value":"15",
+                "value":"9",
                 "sistem":"Sistema",
                 "typesistem":"Contable"
             },
             {
                 "name":"Frecuencia",
                 "type":"Diaria",
-                "value":"15",
+                "value":"5",
                 "sistem":"Sistema",
                 "typesistem":"Contable"
             },
             {
                 "name":"Frecuencia",
                 "type":"Diaria",
-                "value":"15",
+                "value":"6",
                 "sistem":"Sistema",
                 "typesistem":"Contable"
             },
             {
                 "name":"Frecuencia",
                 "type":"Diaria",
-                "value":"15",
+                "value":"7",
                 "sistem":"Sistema",
                 "typesistem":"Contable"
             }

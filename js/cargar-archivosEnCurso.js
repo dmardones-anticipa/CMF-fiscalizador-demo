@@ -53,8 +53,98 @@ function renderCards(block, data){
     h2.innerText=block.name;
     titulo.appendChild(h2);
     section.appendChild(titulo);
-    
-    cont.appendChild(section);
 
+    const cardsContainer=document.createElement('div');
+    cardsContainer.classList.add('resultados');
+    block.items.forEach(card=>{
+        const cardDiv=document.createElement('div');
+        cardDiv.classList.add('card_resultados');
+        cardDiv.innerHTML=`
+            <div class="card_resultados__res">
+                <div class="card_resultados__number ${card.color}">
+                    <p>${card.value}</p>
+                </div>
+            </div>
+            <div class="card_resultados__title">
+                <p>${card.name}</p>
+            </div>
+        `;
+        cardDiv.addEventListener('click', ()=>{
+            const allCards=document.querySelectorAll('.card_resultados');
+            allCards.forEach(c=>c.classList.remove('activ'));
+            cardDiv.classList.add('activ');
+            renderFrecuencia(data[2], data);
+        });
+        cardsContainer.appendChild(cardDiv);
+    });
+    section.appendChild(cardsContainer);
+    cont.appendChild(section);
 };
+function renderFrecuencia(block, data){
+    const cont=document.querySelector('.content');
+    if(!cont) return;
+
+    const prevSection=document.getElementById('frecuencias-section');
+    if(prevSection) prevSection.remove();
+
+    const section=document.createElement('section');
+    section.id='frecuencias-section';
+
+    const titulo=document.createElement('div');
+    titulo.classList.add('title');
+    const h2=document.createElement('h2');
+    h2.innerText=block.name;
+    titulo.appendChild(h2);
+    section.appendChild(titulo);
+
+    const cardsContainer=document.createElement('div');
+    cardsContainer.classList.add('resultados');
+    block.items.forEach(card=>{
+        const cardDiv=document.createElement('div');
+        cardDiv.classList.add('card_resultados', 'frecuencia');
+        cardDiv.innerHTML=`
+            <div class="card_resultados__res">
+                <div class="card_resultados__number">
+                    <p>${card.value}</p>
+                </div>
+            </div>
+            <div class="card_resultados__title">
+                <p>${card.name}</p>
+            </div>
+        `;
+        cardDiv.addEventListener('click', ()=>{
+            const allCards=document.querySelectorAll('.frecuencia');
+            allCards.forEach(c=>c.classList.remove('activ'));
+            cardDiv.classList.add('activ');
+            renderSistema(data[3]);
+        });
+        cardsContainer.appendChild(cardDiv);
+    });
+    section.appendChild(cardsContainer);
+
+    cont.appendChild(section);
+}
+
+function renderSistema(block, data){
+    const cont=document.querySelector('.content');
+    if(!cont) return;
+
+    const prevSection=document.getElementById('Sistemas-section');
+    if(prevSection) prevSection.remove();
+
+    const section=document.createElement('section');
+    section.id='Sistemas-section';
+
+    const titulo=document.createElement('div');
+    titulo.classList.add('title');
+    const h2=document.createElement('h2');
+    h2.innerText=block.name;
+    titulo.appendChild(h2);
+    section.appendChild(titulo);
+
+    //section.appendChild(cardsContainer);
+
+    cont.appendChild(section);
+}
+
 loadArchivos();

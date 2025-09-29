@@ -57,7 +57,7 @@ main{
     width:100%;
     margin-bottom:2rem;
     display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(160px, 270px));
+    grid-template-columns:repeat(auto-fit, minmax(220px, 19%));
     gap:1rem;
 }
 .card_resultados{
@@ -98,6 +98,8 @@ main{
     }
     &.frecuencia{
         & .card_resultados__res{
+            flex: 0 0 auto;
+            padding:.625rem;
             background:var(--cmf-color-4);
              & .card_resultados__number{
                 background:inherit;
