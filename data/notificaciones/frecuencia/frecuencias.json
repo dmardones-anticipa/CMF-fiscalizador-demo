@@ -195,49 +195,49 @@
         "id": 1,
         "tipoFrecuencia":"Bimestral",
         "tipoSistema":"Contable",
-        "valor": 50
+        "valor": 55
     },
     {
         "id": 2,
         "tipoFrecuencia":"Bimestral",
         "tipoSistema":"Productos",
-        "valor": 50
+        "valor": 55
     },
     {
         "id": 3,
         "tipoFrecuencia":"Bimestral",
         "tipoSistema":"Deudores",
-        "valor": 50
+        "valor": 55
     },
     {
         "id": 4,
         "tipoFrecuencia":"Bimestral",
         "tipoSistema":"Instituciones",
-        "valor": 50
+        "valor": 55
     },
     {
         "id": 5,
         "tipoFrecuencia":"Bimestral",
         "tipoSistema":"Estadísticas",
-        "valor": 50
+        "valor": 55
     },
     {
         "id": 6,
         "tipoFrecuencia":"Bimestral",
         "tipoSistema":"Leasing",
-        "valor": 50
+        "valor": 55
     },
     {
         "id": 7,
         "tipoFrecuencia":"Bimestral",
         "tipoSistema":"FECU",
-        "valor": 50
+        "valor": 55
     },
     {
         "id": 8,
         "tipoFrecuencia":"Bimestral",
         "tipoSistema":"Otros",
-        "valor": 50
+        "valor": 55
     },
     {
         "id": 1,

@@ -29,6 +29,12 @@ import { cargarSistemas } from './sistemas/cargarSistemas.js';
         cardResultados.forEach((item) => {
         console.log(item)
         item.addEventListener("click", () => {
+
+            // Quitar la clase 'activ' de todos los elementos
+            cardResultados.forEach(el => el.classList.remove("activ"));
+            // Agregar la clase 'activ' solo al elemento clickeado
+            item.classList.add("activ");
+
             console.log("click", item.dataset.frecuencia)
             sistemasContainer.style.display = "block"
             cargarSistemas(item.dataset.frecuencia)
