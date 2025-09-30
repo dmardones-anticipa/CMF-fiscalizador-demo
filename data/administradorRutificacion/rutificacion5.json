@@ -1,0 +1,48 @@
+[
+  {
+    "archivo": {
+      "tipoArchivo": "D03",
+      "numeroSecuencia": "xxxxxxx"
+    },
+    "datosInformados": {
+      "nombreIFI": "Lorem ipsum dolor sit amet",
+      "nombreCMF": "Lorem ipsum dolor sit amet m Lorem ipsum dolor sit amet",
+      "rut": "12345678-9"
+    },
+    "preguntaCMF": "¿Desea aceptar el nombre enviado por CMF?",
+    "historial": [
+      {
+        "fecha": "13/09/2023",
+        "nombreInformado": "Sociedades de Apoyo al Giro de Cooperativas de Ahorro y Crédito",
+        "nombreCMF": "Lorem ipsum dolor sit amet",
+        "nombreIFI": "Lorem ipsum dolor sit amet m Lorem ipsum dolor sit amet",
+        "coincidencias": 1
+      }
+    ],
+    "fechaObservacion1": "2023-09-13",
+    "observacion1": "Texto de observación 1",
+    "fechaObservacion2": "2023-09-14",
+    "observacion2": "Texto de observación 2",
+    "archivosAdjuntos": [
+      {
+        "nombre": "documento1.pdf",
+        "url": "/archivos/documento1.pdf"
+      },
+      {
+        "nombre": "documento2.pdf",
+        "url": "/archivos/documento2.pdf"
+      }
+    ],
+    "origenRespuesta": "Usuario Interno CMF",
+    "usuario": "jose.perez",
+    "acciones": {
+      "aceptar": true,
+      "rechazar": true
+    },
+    "filtros": {
+      "tipoInstitucion": ["Bancos", "Cooperativas", "Sociedades de Apoyo al Giro"],
+      "institucion": ["Banco Estado", "Cooperativa Ahorro X", "Sociedad Y"],
+      "archivo": ["D03", "D05"]
+    }
+  }
+]

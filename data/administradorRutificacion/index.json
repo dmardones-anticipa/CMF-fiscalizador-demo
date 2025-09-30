@@ -1,0 +1,23 @@
+[{
+  "filtrosDisponibles": {
+    "tipoInstitucion": [
+      "Banco",
+      "Cooperativa",
+      "Caja de Compensación",
+      "Mutual",
+      "Otra"
+    ],
+    "instituciones": [
+      "Banco A",
+      "Banco B",
+      "Cooperativa X",
+      "Mutual Y"
+    ],
+    "archivos": [
+      "Archivo 1",
+      "Archivo 2",
+      "Archivo 3"
+    ]
+  }
+}
+]

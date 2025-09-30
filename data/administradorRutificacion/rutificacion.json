@@ -1,0 +1,83 @@
+[{
+  "resumen": {
+    "totalArchivos": 151
+  },
+  "instituciones": [
+    {
+      "nombre": "Sociedades de Apoyo al Giro de Cooperativas de Ahorro y Crédito",
+      "cantidadArchivos": 15,
+      "id": 1
+    },
+    {
+      "nombre": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed",
+      "cantidadArchivos": 10,
+      "id": 2
+    },
+    {
+      "nombre": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed",
+      "cantidadArchivos": 9,
+      "id": 3
+    },
+    {
+      "nombre": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed",
+      "cantidadArchivos": 13,
+      "id": 4
+    },
+    {
+      "nombre": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed",
+      "cantidadArchivos": 18,
+      "id": 5
+    },
+    {
+      "nombre": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed",
+      "cantidadArchivos": 4,
+      "id": 6
+    },
+    {
+      "nombre": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed",
+      "cantidadArchivos": 9,
+      "id": 7
+    },
+    {
+      "nombre": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed",
+      "cantidadArchivos": 16,
+      "id": 8
+    },
+    {
+      "nombre": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed",
+      "cantidadArchivos": 5,
+      "id": 9
+    },
+    {
+      "nombre": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed",
+      "cantidadArchivos": 7,
+      "id": 10
+    },
+    {
+      "nombre": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed",
+      "cantidadArchivos": 11,
+      "id": 11
+    },
+    {
+      "nombre": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed",
+      "cantidadArchivos": 12,
+      "id": 12
+    },
+    {
+      "nombre": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed",
+      "cantidadArchivos": 3,
+      "id": 13
+    },
+    {
+      "nombre": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed",
+      "cantidadArchivos": 17,
+      "id": 14
+    },
+    {
+      "nombre": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed",
+      "cantidadArchivos": 2,
+      "id": 15
+    }
+  ]
+}
+]

@@ -1,0 +1,60 @@
+[{
+  "rutificaciones": [
+    {
+      "tipoArchivo": "D03",
+      "fechaReferencia": "2023-09-01",
+      "inconsistencias": 1,
+      "accion": "ver"
+    },
+    {
+      "tipoArchivo": "D03",
+      "fechaReferencia": "2023-09-01",
+      "inconsistencias": 2,
+      "accion": "ver"
+    },
+    {
+      "tipoArchivo": "D03",
+      "fechaReferencia": "2023-09-01",
+      "inconsistencias": 0,
+      "accion": "ver"
+    },
+    {
+      "tipoArchivo": "D03",
+      "fechaReferencia": "2023-09-01",
+      "inconsistencias": 1,
+      "accion": "ver"
+    },
+    {
+      "tipoArchivo": "D03",
+      "fechaReferencia": "2023-09-01",
+      "inconsistencias": 2,
+      "accion": "ver"
+    },
+    {
+      "tipoArchivo": "D03",
+      "fechaReferencia": "2023-09-01",
+      "inconsistencias": 0,
+      "accion": "ver"
+    },
+    {
+      "tipoArchivo": "D03",
+      "fechaReferencia": "2023-09-01",
+      "inconsistencias": 1,
+      "accion": "ver"
+    },
+    {
+      "tipoArchivo": "D03",
+      "fechaReferencia": "2023-09-01",
+      "inconsistencias": 2,
+      "accion": "ver"
+    },
+    {
+      "tipoArchivo": "D03",
+      "fechaReferencia": "2023-09-01",
+      "inconsistencias": 0,
+      "accion": "ver"
+    }
+
+  ]
+}
+]
