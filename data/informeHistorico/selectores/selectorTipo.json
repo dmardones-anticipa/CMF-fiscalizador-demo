@@ -1,0 +1,26 @@
+[
+    {
+        "id":"-1",
+        "label":"Tipo de institución",
+        "disabled": true,
+        "selected": true
+    },
+    {
+        "id":"1",
+        "label":"Tipo 1",
+        "disabled": false,
+        "selected": false
+    },
+    {
+        "id":"2",
+        "label":"Tipo 2",
+        "disabled": false,
+        "selected": false
+    },
+    {
+        "id":"3",
+        "label":"Tipo 3",
+        "disabled": false,
+        "selected": false
+    }
+]

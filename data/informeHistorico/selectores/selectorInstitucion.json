@@ -1,0 +1,26 @@
+[
+    {
+        "id":"-1",
+        "label":"Institución",
+        "disabled": true,
+        "selected": true
+    },
+    {
+        "id":"1",
+        "label":"Institución 1",
+        "disabled": false,
+        "selected": false
+    },
+    {
+        "id":"2",
+        "label":"Institución 2",
+        "disabled": false,
+        "selected": false
+    },
+    {
+        "id":"3",
+        "label":"Institución 3",
+        "disabled": false,
+        "selected": false
+    }
+]
